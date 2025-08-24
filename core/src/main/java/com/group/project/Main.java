@@ -36,8 +36,8 @@ public class Main implements ApplicationListener {
         backgroundTexture = new Texture("background.png");
         bucketTexture = new Texture("bucket.png");
         dropTexture = new Texture("drop.png");
-        dropSound = Gdx.audio.newSound(Gdx.files.internal("drop.mp3"));
-        music = Gdx.audio.newMusic(Gdx.files.internal("music.mp3"));
+        dropSound = Gdx.audio.newSound(Gdx.files.internal("hit.mp3"));
+        music = Gdx.audio.newMusic(Gdx.files.internal("background_music.mp3"));
         spriteBatch = new SpriteBatch();
         viewport = new FitViewport(8, 5);
         bucketSprite = new Sprite(bucketTexture);
